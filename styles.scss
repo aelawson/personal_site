@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+
+html {
+  body {
+    background-color: #FDFDFD;
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    .intro {
+      line-height: 1;
+    }
+    &.wrapper {
+      display: flex;
+      flex: 1 0 auto;
+      align-items: center;
+    }
+  }
+}
