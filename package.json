@@ -4,6 +4,7 @@
   "description": "My personal website.",
   "main": "index.js",
   "scripts": {
+    "serve": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "github.com/aelawson/personal_site",
