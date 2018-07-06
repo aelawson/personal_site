@@ -25,10 +25,14 @@ module.exports = {
         'css-loader',
         'sass-loader'
       ]
+    }, {
+      test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?.*$|$)/,
+      loader: 'file-loader'
     }]
   },
   plugins: [
     new HtmlWebpackPlugin({
+      favicon: 'favicon.ico',
       filename: __dirname + '/dist/index.html',
       template: __dirname + '/index.html'
     })
